@@ -1,0 +1,27 @@
+@import "vendor/normalize";
+
+body {
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+
+.wrapper {
+
+  max-width: 900px;
+  margin: auto;
+
+  .picker {
+    h1 {
+      text-transform: capitalize;
+    }
+
+    .picker-button {
+      display: inline-block;
+      margin-right: 10px;
+      text-transform: capitalize;
+      text-decoration: none;
+      &.selected {
+        font-weight: bold;
+      }
+    }
+  }
+}
